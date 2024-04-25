@@ -1,6 +1,5 @@
 # PacMan
-Recreating the PacMan game
-This is a PacMan game that we will make it more advanced for fun
+
 Pacman is a simple game written on Pygame. The game was created as a learning project to explore the possibilities of Pygame and develop game applications.
 
 
