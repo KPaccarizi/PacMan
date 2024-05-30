@@ -447,6 +447,9 @@ class Ghost:
 
 
 
+
+
+
     def move_inky(self):
 
         if self.direction == 0:
@@ -480,6 +483,8 @@ class Ghost:
                     self.y_pos -= self.speed
                 else:
                     self.x_pos += self.speed
+                    
+                    
         elif self.direction == 1:
             if self.target[1] > self.y_pos and self.turns[3]:
                 self.direction = 3
@@ -1023,6 +1028,7 @@ while run:
 
 
 
+
     if not powerup:
         if (player_circle.colliderect(blinky.rect) and not blinky.dead) or \
                 (player_circle.colliderect(inky.rect) and not inky.dead) or \
@@ -1247,6 +1253,7 @@ while run:
                 game_over = False
                 game_won = False
 
+
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_RIGHT and direction_command == 0:
                 direction_command = direction
@@ -1280,7 +1287,9 @@ while run:
     if clyde.in_box and clyde_dead:
         clyde_dead = False
 
+
     pygame.display.flip()
+    
 pygame.quit()
 
 sys.exit()
