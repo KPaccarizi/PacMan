@@ -1,10 +1,10 @@
-import copy
+
 from table import boards
 import pygame
 import math
 import tkinter as tk
 import sys
-
+import copy
 
 pygame.init()
 
@@ -13,11 +13,16 @@ HEIGHT = 950
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
 timer = pygame.time.Clock()
 fps = 60
-font = pygame.font.Font('freesansbold.ttf', 20)
+font = pygame.font.Font('newfont.ttf', 20)
+
+
+
 level = copy.deepcopy(boards)
 color = 'blue'
 PI = math.pi
 player = []
+
+
 
 
 for i in range(1, 5):
