@@ -26,24 +26,35 @@ player = []
 
 
 for i in range(1, 5):
+    
     player.append(pygame.transform.scale(pygame.image.load(f'assets/player/{i}.png'), (45, 45)))
+    
 blinky_img = pygame.transform.scale(pygame.image.load(f'assets/ghosts/red1.png'), (45, 45))
+
 pinky_img = pygame.transform.scale(pygame.image.load(f'assets/ghosts/green1.png'), (45, 45))
+
 inky_img = pygame.transform.scale(pygame.image.load(f'assets/ghosts/blue1.png'), (45, 45))
+
 clyde_img = pygame.transform.scale(pygame.image.load(f'assets/ghosts/yellow1.png'), (45, 45))
+
 spooked_img = pygame.transform.scale(pygame.image.load(f'assets/ghosts/powerup1.png'), (45, 45))
+
 dead_img = pygame.transform.scale(pygame.image.load(f'assets/ghosts/dead1.png'), (45, 45))
+
 player_x = 450
 player_y = 663
 direction = 0
 blinky_x = 56
 blinky_y = 58
+
 blinky_direction = 0
 inky_x = 440
 inky_y = 388
 inky_direction = 2
+
 pinky_x = 440
 pinky_y = 438
+
 pinky_direction = 2
 clyde_x = 440
 clyde_y = 438
