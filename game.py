@@ -13,7 +13,7 @@ HEIGHT = 950
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
 timer = pygame.time.Clock()
 fps = 60
-font = pygame.font.Font('newfont.ttf', 20)
+font = pygame.font.SysFont(None, 20)
 
 
 
