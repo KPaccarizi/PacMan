@@ -16,7 +16,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 - Python 3.x
 - Pygame library
 
-!(pacman.png)
+![PacMan](pacman.png)
 
 ### Installation
 
