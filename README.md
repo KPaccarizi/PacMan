@@ -34,11 +34,11 @@ Running the Game
 python game.py
 
 ### Project Structure
-game.py - The main game script.
-assets/ - Directory containing game assets such as images and sounds.
-build/ - Directory for build-related files (if any).
-dist/ - Directory for distribution files (if any).
-myenv/ - Virtual environment directory.
+- game.py - The main game script.
+- assets/ - Directory containing game assets such as images and sounds.
+- build/ - Directory for build-related files (if any).
+- dist/ - Directory for distribution files (if any).
+- myenv/ - Virtual environment directory.
 
 ### Usage
 Once the game is running, use the following controls (customize as needed):
