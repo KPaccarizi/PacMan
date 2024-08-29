@@ -19,35 +19,34 @@ Follow these instructions to get a copy of the project up and running on your lo
 ![PacMan](pacman.png)
 
 
-###Create and Activate a Virtual Environment
+### Create and Activate a Virtual Environment
 
 python -m venv myenv
 myenv\Scripts\activate  # On Windows
 source myenv/bin/activate  # On macOS/Linux
 Install Dependencies
 
-###Make sure you have the required dependencies installed:
-
+### Make sure you have the required dependencies installed:
 pip install pygame
 Running the Game
 
-###To start the game, run the following command:
+### To start the game, run the following command:
 python game.py
 
-###Project Structure
+### Project Structure
 game.py - The main game script.
 assets/ - Directory containing game assets such as images and sounds.
 build/ - Directory for build-related files (if any).
 dist/ - Directory for distribution files (if any).
 myenv/ - Virtual environment directory.
 
-###Usage
+### Usage
 Once the game is running, use the following controls (customize as needed):
 
 Arrow keys - Move PacMan
 Space - Additional actions (if implemented)
 
-###Contributing
+### Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Be sure to include relevant tests and documentation.
 
 
